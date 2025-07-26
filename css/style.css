@@ -1,0 +1,290 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #28a745;
+    color: white;
+    padding: 1em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background 0.3s, color 0.3s;
+}
+
+header nav a:hover, header nav a.active {
+    background: #218838;
+    border-radius: 5px;
+}
+
+.profile-dropdown {
+    position: relative;
+}
+
+.profile-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.profile-btn:hover {
+    background: #218838;
+    border-radius: 5px;
+}
+
+.dropdown-arrow {
+    font-size: 0.8em;
+}
+
+.profile-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #28a745;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    min-width: 150px;
+    z-index: 1001;
+}
+
+.profile-menu a {
+    display: block;
+    padding: 0.5em 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.profile-menu a:hover {
+    background: #218838;
+}
+
+.profile-dropdown:hover .profile-menu {
+    display: block;
+}
+
+.cart-icon {
+    position: relative;
+    padding: 0.5em 1em;
+}
+
+.cart-symbol {
+    width: 48px;
+    height: 48px;
+    filter: none;
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    background: #dc3545;
+    color: white;
+    border-radius: 50%;
+    padding: 0.2em 0.5em;
+    font-size: 0.8em;
+    min-width: 1em;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+
+.btn {
+    background: #28a745;
+    color: white;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #218838;
+    transform: translateY(-2px);
+}
+
+.remove-btn.btn {
+    background: none;
+    color: #dc3545;
+    padding: 0;
+    transform: none;
+}
+
+.remove-btn.btn:hover {
+    background: none;
+    transform: none;
+}
+
+h1, h2, h3 {
+    color: #28a745;
+    margin-bottom: 0.5em;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 0;
+    background: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.feature {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    padding: 1em;
+}
+
+.feature i {
+    font-size: 2em;
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+.feature h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.feature p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0;
+}
+
+/* Background variations */
+.bg1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/about-hero-bg.jpg') no-repeat center center / cover;
+}
+
+.bg2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/nature-bg.jpg') no-repeat center center / cover;
+}
+
+.bg3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/contact-hero-bg.jpg') no-repeat center center / cover;
+}
+
+/* Hero section common styles */
+.hero {
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.hero .btn {
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .nav-left, .nav-right {
+        width: 100%;
+        justify-content: space-around;
+    }
+    header nav a {
+        width: 100%;
+        text-align: center;
+    }
+    .profile-menu {
+        position: fixed;
+        top: 60px;
+        right: 10px;
+    }
+    .features {
+        flex-direction: column;
+        padding: 1em;
+    }
+    .feature {
+        min-width: 100%;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}

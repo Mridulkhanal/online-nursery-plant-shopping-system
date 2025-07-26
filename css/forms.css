@@ -1,0 +1,68 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 0.75em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+    border-color: #28a745;
+    outline: none;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+form input[type="file"] {
+    padding: 0.2em;
+}
+
+form button {
+    background: #28a745;
+    color: white;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #218838;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+    form {
+        padding: 1em;
+    }
+}

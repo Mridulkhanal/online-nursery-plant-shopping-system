@@ -1,0 +1,63 @@
+HTTP Code: 200
+Response: {"pidx":"K8Cii6wWSenGsUj8id7AAD","payment_url":"https://test-pay.khalti.com/?pidx=K8Cii6wWSenGsUj8id7AAD","expires_at":"2025-05-17T20:10:36.256661+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"w3YVnnxVVA4a67JSbWW2E8","payment_url":"https://test-pay.khalti.com/?pidx=w3YVnnxVVA4a67JSbWW2E8","expires_at":"2025-05-17T20:11:51.459103+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"UDWrEMQV78sRmcWBPeMsBC","payment_url":"https://test-pay.khalti.com/?pidx=UDWrEMQV78sRmcWBPeMsBC","expires_at":"2025-05-17T20:20:31.581426+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"pbuYJ2biBhFrww7BNHWthN","payment_url":"https://test-pay.khalti.com/?pidx=pbuYJ2biBhFrww7BNHWthN","expires_at":"2025-05-17T20:26:32.655438+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"admzxe4sdTYGRwVoZB9gN8","payment_url":"https://test-pay.khalti.com/?pidx=admzxe4sdTYGRwVoZB9gN8","expires_at":"2025-05-17T20:32:10.524152+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"xnneG7VHR565xf8hXotoYW","payment_url":"https://test-pay.khalti.com/?pidx=xnneG7VHR565xf8hXotoYW","expires_at":"2025-05-17T20:38:48.502364+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"RzxVCQPuG2N8oM5KP6Y2qd","payment_url":"https://test-pay.khalti.com/?pidx=RzxVCQPuG2N8oM5KP6Y2qd","expires_at":"2025-05-17T21:04:47.616421+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"RG5nEQTGK7fqVKPAKt3ZEX","payment_url":"https://test-pay.khalti.com/?pidx=RG5nEQTGK7fqVKPAKt3ZEX","expires_at":"2025-05-17T21:12:51.627072+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"HHUivWfDNxYtddbLEvwubL","payment_url":"https://test-pay.khalti.com/?pidx=HHUivWfDNxYtddbLEvwubL","expires_at":"2025-05-17T21:19:56.180263+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"hYXK5Go4WQAd3r74JqaSHk","payment_url":"https://test-pay.khalti.com/?pidx=hYXK5Go4WQAd3r74JqaSHk","expires_at":"2025-05-17T23:04:32.073007+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 0
+Response: 
+cURL Error: Recv failure: Connection was reset
+HTTP Code: 200
+Response: {"pidx":"Efxu3ZGc6viRe3FeohePMN","payment_url":"https://test-pay.khalti.com/?pidx=Efxu3ZGc6viRe3FeohePMN","expires_at":"2025-05-18T07:40:16.317031+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"jNV3aBMGESpJ2g2DzyMFeK","payment_url":"https://test-pay.khalti.com/?pidx=jNV3aBMGESpJ2g2DzyMFeK","expires_at":"2025-05-18T11:00:07.483049+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"DfTUHr4D6M8D97Qsaiqd6V","payment_url":"https://test-pay.khalti.com/?pidx=DfTUHr4D6M8D97Qsaiqd6V","expires_at":"2025-05-21T23:14:17.140007+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"JXYkasT75JGrE5Gss5LDLh","payment_url":"https://test-pay.khalti.com/?pidx=JXYkasT75JGrE5Gss5LDLh","expires_at":"2025-05-21T23:18:51.288321+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"VgMFAq3g9UpD7mjxJxhk23","payment_url":"https://test-pay.khalti.com/?pidx=VgMFAq3g9UpD7mjxJxhk23","expires_at":"2025-05-22T18:52:58.494475+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"3UXT3irqBoWs7ByuB8cY9m","payment_url":"https://test-pay.khalti.com/?pidx=3UXT3irqBoWs7ByuB8cY9m","expires_at":"2025-05-23T07:26:56.367772+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 0
+Response: 
+cURL Error: Recv failure: Connection was reset
+HTTP Code: 200
+Response: {"pidx":"TAYWTaYKdzQYBQxmb4Fung","payment_url":"https://test-pay.khalti.com/?pidx=TAYWTaYKdzQYBQxmb4Fung","expires_at":"2025-05-25T07:54:54.149287+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"bibRBjc6dmo4eusmcmEGhP","payment_url":"https://test-pay.khalti.com/?pidx=bibRBjc6dmo4eusmcmEGhP","expires_at":"2025-05-26T00:29:41.201667+05:45","expires_in":1800}
+cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"Yx4wrmawjKggb2Ht9npztR","payment_url":"https://test-pay.khalti.com/?pidx=Yx4wrmawjKggb2Ht9npztR","expires_at":"2025-05-26T01:03:31.708930+05:45","expires_in":1800}
+cURL Error: 

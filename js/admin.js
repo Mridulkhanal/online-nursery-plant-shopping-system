@@ -92,25 +92,25 @@ document.addEventListener('DOMContentLoaded', () => {
         setInterval(fetchOrders, 30000); // Update every 30 seconds
     }
 
-    // // Theme switching
-    // const themeSwitcher = document.querySelector('.theme-switcher');
-    // if (themeSwitcher) {
-    //     console.log('Theme switcher found:', themeSwitcher);
-    //     const currentTheme = localStorage.getItem('theme') || 'light';
+    // Theme switching
+    const themeSwitcher = document.querySelector('.theme-switcher');
+    if (themeSwitcher) {
+        console.log('Theme switcher found:', themeSwitcher);
+        const currentTheme = localStorage.getItem('theme') || 'light';
         
-    //     document.documentElement.setAttribute('data-theme', currentTheme);
-    //     themeSwitcher.textContent = currentTheme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+        themeSwitcher.textContent = currentTheme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode';
 
-    //     themeSwitcher.addEventListener('click', () => {
-    //         const newTheme = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-    //         document.documentElement.setAttribute('data-theme', newTheme);
-    //         localStorage.setItem('theme', newTheme);
-    //         themeSwitcher.textContent = newTheme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode';
-    //         console.log('Theme switched to:', newTheme);
-    //     });
-    // } else {
-    //     console.error('Theme switcher element not found!');
-    // }
+        themeSwitcher.addEventListener('click', () => {
+            const newTheme = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            themeSwitcher.textContent = newTheme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode';
+            console.log('Theme switched to:', newTheme);
+        });
+    } else {
+        console.error('Theme switcher element not found!');
+    }
 
     // Helper functions for error handling
     function showError(input, message) {

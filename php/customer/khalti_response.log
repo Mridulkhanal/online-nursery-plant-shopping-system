@@ -61,3 +61,6 @@ cURL Error:
 HTTP Code: 200
 Response: {"pidx":"Yx4wrmawjKggb2Ht9npztR","payment_url":"https://test-pay.khalti.com/?pidx=Yx4wrmawjKggb2Ht9npztR","expires_at":"2025-05-26T01:03:31.708930+05:45","expires_in":1800}
 cURL Error: 
+HTTP Code: 200
+Response: {"pidx":"FtWeda9aVJq7QZwwhVkMUA","payment_url":"https://test-pay.khalti.com/?pidx=FtWeda9aVJq7QZwwhVkMUA","expires_at":"2025-07-26T14:58:06.524546+05:45","expires_in":1800}
+cURL Error: 
